@@ -35,11 +35,11 @@ p {
  * Selection color
  */
 ::-moz-selection {
-  background-color: #FA6862;
+  background-color: #106466;
   color: #fff; }
 
 ::selection {
-  background-color: #FA6862;
+  background-color: #106466;
   color: #fff; }
 
 /*
@@ -80,7 +80,7 @@ textarea, label {
     outline: 0 none; }
 
 .btn-primary {
-  background-color: #FA6862;
+  background-color: #106466;
   border: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -89,7 +89,7 @@ textarea, label {
   padding: 0 42px;
   text-transform: uppercase; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-    background-color: #f9423a; }
+    background-color: #106466; }
 
 .btn-border {
   border: 1px solid #d7d8db;
@@ -129,7 +129,7 @@ textarea, label {
 
 .primary,
 .link:hover {
-  color: #FA6862; }
+  color: #106466; }
 
 .no-gutter {
   margin-left: 0;
@@ -160,7 +160,7 @@ textarea, label {
   justify-content: space-between; }
 
 .nicescroll-cursors {
-  background: #FA6862 !important; }
+  background: #106466; !important; }
 
 .preloader {
   bottom: 0;
@@ -178,7 +178,7 @@ textarea, label {
     display: none; }
 
 .loading-mask {
-  background-color: #FA6862;
+  background-color: #106466;
   height: 100%;
   left: 0;
   position: absolute;
@@ -223,7 +223,7 @@ textarea, label {
 	Start Styling
 -------------------------------------------------*/
 .site-wrapper {
-  border-top: 4px solid #FA6862; }
+  border-top: 4px solid #106466; }
 
 .page-close {
   font-size: 30px;
@@ -279,7 +279,7 @@ textarea, label {
       width: 96px;
       bottom: 14px; }
     .section-title h3::after {
-      background-color: #FA6862;
+      background-color: #106466;
       width: 73px; }
   .section-title.light h3 {
     color: #fff; }
@@ -346,7 +346,7 @@ textarea, label {
         height: 15px; }
     .hexagon-item:hover .hex-item div::before,
     .hexagon-item:hover .hex-item div::after {
-      background-color: #FA6862; }
+      background-color: #106466; }
     .hexagon-item:hover .hex-content svg {
       -webkit-transform: scale(0.97);
       -moz-transform: scale(0.97);
@@ -548,7 +548,7 @@ textarea, label {
     -ms-flex-positive: 1;
     flex-grow: 1; }
   .progress .bar {
-    background-color: #FA6862;
+    background-color: #106466;
     border-radius: 10px;
     height: 8px;
     width: 0; }
@@ -571,8 +571,8 @@ textarea, label {
   .filter a {
     border-bottom: 2px solid transparent; }
   .filter .active {
-    color: #FA6862;
-    border-bottom-color: #FA6862; }
+    color: #106466;
+    border-bottom-color: #106466; }
 
 .works-item {
   font-family: "Open Sans", sans-serif;
@@ -620,7 +620,7 @@ textarea, label {
     -o-transform: translate3d(0px, 0px, 0px) scale(0);
     transform: translate3d(0px, 0px, 0px) scale(0); }
   .works-item h4 {
-    color: #FA6862;
+    color: #106466;
     font-weight: 700;
     text-transform: uppercase; }
   .works-item p {
@@ -659,7 +659,7 @@ textarea, label {
 
 .history-scroller {
   padding-top: 82px;
-  max-height: 377px; }
+  max-height: 10000px; }
 
 .history-item {
   display: table;
@@ -770,7 +770,7 @@ textarea, label {
       -o-transform: scale(1.5);
       transform: scale(1.5); }
     .service-hex:hover .st1 {
-      fill: #FA6862; }
+      fill: #106466; }
     .service-hex:hover .content {
       width: 135%; }
     .service-hex:hover p {
@@ -830,7 +830,7 @@ textarea, label {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .testimonials .owl-dot.active {
-    border-color: #FA6862; }
+    border-color: #106466; }
 
 .tm-hex {
   position: relative;
@@ -940,11 +940,11 @@ textarea, label {
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .contact-social li:hover span {
-      background-color: #FA6862; }
+      background-color: #106466; }
       .contact-social li:hover span::before {
-        border-bottom-color: #FA6862; }
+        border-bottom-color: #106466; }
       .contact-social li:hover span::after {
-        border-top-color: #FA6862; }
+        border-top-color: #106466; }
 
 .contact-social-hex {
   display: block;
@@ -975,9 +975,9 @@ textarea, label {
     width: 0;
     border-top: 12.41px solid #1e2530; }
   .contact-social-hex:hover::after {
-    border-bottom-color: #FA6862; }
+    border-bottom-color: #106466; }
   .contact-social-hex:hover::before {
-    border-top-color: #FA6862; }
+    border-top-color: #106466; }
 
 .contact-form .input-field {
   margin-bottom: 10px; }
@@ -1032,7 +1032,7 @@ textarea, label {
   margin-top: 15px; }
 
 .msg-success {
-  color: #FA6862; }
+  color: #106466; }
 
 .pt-table.desktop-768 .pt-tablecell {
   padding-bottom: 110px;
@@ -1133,7 +1133,7 @@ textarea, label {
   cursor: pointer; }
 
 .color-options li.c0 {
-  background-color: #FA6862; }
+  background-color: #106466; }
 
 .color-options li.c1 {
   background-color: #02B7CE; }
