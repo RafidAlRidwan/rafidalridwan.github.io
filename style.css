@@ -1,0 +1,110 @@
+@import url('https://fonts.maateen.me/ekushey-lohit/font.css');
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    font-family: 'EkusheyLohit', Arial, sans-serif !important;
+}
+
+
+.nav-header{
+    background-color: #fff;
+    width: 100%;
+    height: 5.625rem;
+    transition: box-shadow .5s ease;
+}
+
+.nav-left{
+    gap: 2.25rem;
+}
+
+.Button_btn__end_icon__Opp_H{
+    margin-left: 0.875rem;
+}
+
+.all-course-btn{
+    border-radius: 2px !important;
+    height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+    border-top-left-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+}
+
+.Input_search__input_group{
+    position: relative;
+}
+
+.Input_search__input_icon{
+    position: absolute;
+    top: calc(50% + 1px);
+    left: 1.5625rem;
+    transform: translateY(-50%);
+    color: #858a92;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.Input_form{
+    padding: 0.75rem 1.875rem 0.75rem 4rem;
+    /* border-radius: 3rem; */
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: "Noto Serif Bengali";
+    /* font-size: 1rem; */
+    /* line-height: 1.5rem; */
+    font-weight: 400;
+    border: 1px solid #d9ddef;
+    /* border-radius: 0.25rem; */
+    height: 3rem;
+    color: #0e0e12;
+    background-color: #f2f3f5;
+    width: 100%;
+    /* padding: 0.75rem 1rem; */
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.nav-right{
+    margin-left: auto;
+    gap: 2.2rem;
+}
+
+.login-signup{
+    color: #1f2937;
+    background-color: #f2f3f5;
+    transition: all .3s;
+    border-radius: 7px !important;
+    height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+    
+}
+
+.ntc{
+    transition: all .3s;
+    border-radius: 2px !important;
+    border-top-left-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+    /* border-radius: 7px !important; */
+    height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+   
+}
+
+
+
+/* cover starts */
+.cover-header{
+    position: relative;
+}
+
+.blink-span{
+    position: absolute !important;
+    top: -38px !important;
+    left:530px !important;
+}
+
