@@ -1,11 +1,15 @@
-@import url('https://fonts.maateen.me/ekushey-lohit/font.css');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+
 
 
 
 body{
     box-sizing: border-box;
     margin: 0 0 0 0;
-    font-family: 'EkusheyLohit', Arial, sans-serif !important;
+    font-family: 'Hind Siliguri', sans-serif !important;
+
+    /* font-weight: bolder !important; */
+
 }
 
 
