@@ -19,8 +19,8 @@
                         <a href="">
                             <img src="./assets/logo/logo.png" alt="">
                         </a>
-                        <div>
-                            <a class="btn btn-dark all-course-btn" href="">কোর্সসমূহ
+                        <div class="all-course-btn-wrapper">
+                            <a class="btn btn-dark all-course-btn " href="">কোর্সসমূহ
                                 <span class="Button_btn__end_icon__Opp_H"><svg width="12" height="8" viewBox="0 0 12 8"
                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -28,6 +28,34 @@
                                             fill="#fff"></path>
                                     </svg></span>
                             </a>
+                            <div class="bg-dark d-flex flex-column all-course-dropdown d-none">
+                                <div class="btn btn-dark all-course-btn d-flex justify-content-between align-items-center">
+                                    <p class="text-white" style="margin-bottom: 0;">
+                                        BCS Courses
+                                    </p>
+                                    
+                                    <span class="Button_btn__end_icon__Opp_H ">
+                                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.32481 0.227268L0.231527 1.301C-0.0771754 1.60418 -0.0771753 2.09682 0.231527 2.39993L3.8971 5.99994L0.231528 9.59995C-0.0771742 9.90313 -0.0771742 10.3958 0.231528 10.6989L1.32481 11.7726C1.63352 12.0758 2.13512 12.0758 2.44375 11.7726L7.76847 6.54312C8.07718 6.23994 8.07718 5.74731 7.76847 5.44419L2.44375 0.227335C2.13512 -0.0757787 1.63354 -0.0757787 1.32481 0.227335L1.32481 0.227268Z" fill="#fff">
+
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="btn btn-dark all-course-btn d-flex justify-content-between align-items-center">
+                                    <p class="text-white" style="margin-bottom: 0;">
+                                        Bank Courses
+                                    </p>
+                                    
+                                    <span class="Button_btn__end_icon__Opp_H ">
+                                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.32481 0.227268L0.231527 1.301C-0.0771754 1.60418 -0.0771753 2.09682 0.231527 2.39993L3.8971 5.99994L0.231528 9.59995C-0.0771742 9.90313 -0.0771742 10.3958 0.231528 10.6989L1.32481 11.7726C1.63352 12.0758 2.13512 12.0758 2.44375 11.7726L7.76847 6.54312C8.07718 6.23994 8.07718 5.74731 7.76847 5.44419L2.44375 0.227335C2.13512 -0.0757787 1.63354 -0.0757787 1.32481 0.227335L1.32481 0.227268Z" fill="#fff">
+
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                         <div class="SearchDropdown_search_input">
                             <div class="Input_search__input_group">
@@ -46,7 +74,7 @@
                     </div>
                     <div class="ml-auto nav-right d-flex align-items-center">
                         <button class="btn btn-primary ntc">নোটিস</button>
-                        <button type="button" class="btn btn-danger login-signup">লগ ইন / সাইন আপ</button>
+                        <button type="button" class="btn btn-danger login-signup">লগ ইন</button>
                     </div>
                 </div>
             </div>
@@ -62,7 +90,7 @@
         <div class="container">
 
             <div class="row py-5">
-                <div class="col-6">
+                <div class="col-md-6 col-12 d-flex align-items-center">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center justify-content-space-around">
                             <div>
@@ -86,13 +114,27 @@
                             <div>
                                 <p class="font-weight-bold">আপনার পছন্দের কোর্স গুলো খুঁজে নিন এবং শুরু করুন</p>
                             </div>
-                            <button class="btn btn-warning">শেখা শুরু করি</button>
-                            <button class="btn btn-info ms-2">কোর্সগুলো দেখুন</button>
+                            <button class="btn btn-warning start-learning-btn">শেখা শুরু করি 
+                                <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M13.1719 12L8.22192 7.04999L9.63592 5.63599L15.9999 12L9.63592 18.364L8.22192 16.95L13.1719 12Z" fill="#050400"/>
+                                    </svg>                                    
+                                </span>
+                            </button>
+                            <button class="btn btn-dark ms-2 text-white bg-dark.bg-gradient watch-courses-btn" >কোর্সগুলো দেখুন 
+                                <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.1719 12L8.22192 7.04999L9.63592 5.63599L15.9999 12L9.63592 18.364L8.22192 16.95L13.1719 12Z" fill="white"/>
+                                    </svg>
+                                </span>
+                        </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    helo
+                <div class="col-md-6 col-12">
+                    <div >
+                        <img class="img-fluid" src="./assets/bannners/hero2x_st3vd8.webp" alt="">
+                    </div>
                 </div>
 
             </div>
