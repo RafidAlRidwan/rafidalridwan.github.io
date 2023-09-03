@@ -99,6 +99,12 @@ body{
     /* color: black !important; */   
 }
 
+.ntc:hover{
+    background-color: rgb(156, 156, 156) !important; /* Light orange color */
+    border: none !important;
+    transition: background-color 0.3s !important;
+}
+
 
 .login-signup{
     color: #1f2937;
@@ -109,6 +115,12 @@ body{
     height: 2.5rem !important;
     
     
+}
+
+.login-signup:hover{
+    background-color: #2876a7 !important; /* Light orange color */
+    border: none !important;
+    transition: background-color 0.3s !important;
 }
 
 .start-learning-btn:hover{
