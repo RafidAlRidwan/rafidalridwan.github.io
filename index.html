@@ -252,10 +252,11 @@
                 const updateCounter = () => {
                     const target = +counter.getAttribute("data-target");
                     const count = +counter.innerText;
-                    const increment = target / 500;
+                    const increment = count === 0 ? 1 : count * 0.1;
+
                     if (count < target) {
-                        counter.innerText = `${Math.ceil(count + increment)}`;
-                        setTimeout(updateCounter, 150);
+                        counter.innerText = `${(count + increment).toFixed(1)}`;
+                        setTimeout(updateCounter, 60);
                     } else counter.innerText = target;
                 };
                 updateCounter();
