@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #B78D65;
+    --primary: #f82249;
     --light: #F8F8F8;
     --dark: #252525;
 }
@@ -128,6 +128,15 @@ h6,
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
+    z-index: 20;
+    background: rgba(255, 255, 255, .4) !important;
+    /* Light white with transparency */
+    -webkit-transform: translate3d(0, 0, 0);
+    backdrop-filter: blur(10px);
+    /* This adds the blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari support */
+    border-bottom: 1px solid red;
 }
 
 @media (max-width: 991.98px) {
@@ -264,6 +273,10 @@ h6,
     transition: .5s;
 }
 
+.fact-item {
+    border: 3px solid #FFFFFF;
+}
+
 .fact-item:hover .fact-icon {
     background: var(--dark);
 }
@@ -275,6 +288,10 @@ h6,
 
 .fact-item:hover .fact-icon i {
     color: #FFFFFF;
+}
+
+.fact-item:hover {
+    border: 3px solid #f82249;
 }
 
 
