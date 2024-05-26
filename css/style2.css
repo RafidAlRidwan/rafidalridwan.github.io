@@ -7728,12 +7728,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 @media only screen and (max-width:991px) {
-	.header-botton .navbar-toggle {
+	.header-botton {
 		float: left;
 		margin: 9px 0;
 	}
 
-	.header-botton .navbar-toggle span {
+	.header-botton {
 		background-color: #fff;
 	}
 
@@ -7966,36 +7966,17 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 /*-------------------------------------
 	1. mega-menu
 -------------------------------------*/
-.navbar-toggle {
-	border: none;
-	margin-top: 24px;
-	margin-bottom: 24px;
-	margin-left: 15px;
-	margin-right: -10px;
-	padding: 12px 10px;
-}
 
-.navbar-toggle .icon-bar {
-	background: #000;
-	height: 3px;
-	border-radius: 0;
-	-webkit-border-radius: 0;
-}
 
 @media only screen and (max-width:480px) {
-	.navbar-toggle {
-		margin-left: 10px;
-	}
+
 
 	.extra-nav .extra-cell {
 		margin-left: 0;
 	}
 }
 
-.is-fixed .navbar-toggle {
-	margin-top: 14px;
-	margin-bottom: 14px;
-}
+
 
 .header-nav {
 	position: relative;
@@ -8292,21 +8273,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 @media only screen and (max-width: 991px) {
 
 	/* responsive strat when media screen [991px] css START*/
-	.navbar-header {
-		float: none;
-	}
 
-	.navbar-toggle {
-		display: block;
-	}
-
-	.navbar-collapse.collapse {
-		display: none !important;
-	}
-
-	.navbar-collapse.collapse.in {
-		display: block !important;
-	}
 
 	/* Responsive strat when medai screen [991px] css END*/
 	.header-nav {
@@ -8753,7 +8720,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 		padding: 12px 15px;
 	}
 
-	.is-fixed#header-part .navbar-toggle {
+	.is-fixed#header-part {
 		margin: 15px 0;
 	}
 }
@@ -8794,7 +8761,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	border-color: #fff;
 }
 
-.site-bg-primary .navbar-toggle .icon-bar {
+.site-bg-primary .icon-bar {
 	background-color: #fff;
 }
 
@@ -10231,7 +10198,6 @@ ul.contact-info li .fa {
 .panel-group .panel,
 .nav-tabs>li>a,
 .modal-content,
-.navbar-toggle,
 .nav-pills>li>a,
 .pager li>a,
 .pager li>span,
@@ -10275,7 +10241,6 @@ a,
 .how-wt-work .wt-box .step-no-bx,
 .wt-info-has,
 .wt-we-find .wt-box,
-.navbar-toggle,
 .logo-header,
 .header-nav .nav>li>a,
 .extra-nav,
@@ -11924,11 +11889,11 @@ ol.commentlist li::after {
 	margin-top: 24px;
 }
 
-.header-style-1 .navbar-toggler {
+.header-style-1 {
 	display: none;
 }
 
-.header-style-1 .navbar-toggler .icon-bar {
+.header-style-1 .icon-bar {
 	background: #000;
 	height: 3px;
 	border-radius: 0;
@@ -11936,7 +11901,7 @@ ol.commentlist li::after {
 	width: 22px;
 }
 
-.header-style-1 .navbar-toggler .icon-bar+.icon-bar {
+.header-style-1 .icon-bar+.icon-bar {
 	margin-top: 4px;
 }
 
@@ -11966,7 +11931,7 @@ ol.commentlist li::after {
 		content: inherit;
 	}
 
-	.header-style-1 .navbar-toggler {
+	.header-style-1 {
 		display: block;
 	}
 
@@ -11986,7 +11951,7 @@ ol.commentlist li::after {
 		z-index: 0;
 	}
 
-	.header-style-1 .navbar-toggler {
+	.header-style-1 {
 		display: block;
 		position: absolute;
 		top: 50%;
@@ -11994,7 +11959,7 @@ ol.commentlist li::after {
 		right: 16px;
 	}
 
-	.header-style-1.twm-nav-transparent .navbar-toggler {
+	.header-style-1.twm-nav-transparent {
 		right: -33px;
 	}
 
